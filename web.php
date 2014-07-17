@@ -1,7 +1,7 @@
 <?php
 
 echo "<p>hi</p>";
-// exec 
+echo exec("php -f script.php > /dev/null &");
 echo "<p>bye</p>";
 
 ?>
